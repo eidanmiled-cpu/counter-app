@@ -1,0 +1,65 @@
+body{
+font-size: 10px;
+ font-family: "Courier New", monospace;  /* ✅ Style compteur */
+text-align: center;
+background-image: url("ok.png");
+ background: linear-gradient(rgba(105, 160, 130, 0.9), rgba(39, 16, 16, 0.9)), 
+                url("ok.png") no-repeat center center;
+    background-size: cover;
+    margin: 10px;
+    height: 100vh; 
+}
+
+h1{
+font-size: 75px;
+color:rgb(7, 75, 153)
+
+}
+h2{
+    font-size: 40px;
+    color:azure;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+ 
+button{
+    font-size:medium;
+    flex :center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+    #save-btn{
+    background-color: lightcoral;
+    -ms-flex-align: center;
+    align-items: center;
+    flex :center;
+    size: medium;
+}
+.container {
+  display: flex;
+  flex-direction: column; /* ✅ à ajouter pour avoir un bouton au-dessus de l'autre */
+  align-items: center;    /* ✅ pour centrer horizontalement */
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#save-el{ 
+    font-size: 30px;
+    color: rgb(106, 155, 27);
+    margin-top: -1px;
+    margin-bottom: 30px;
+    text-decoration: dotted underline;
+}
+
+
+h2 {
+    font-size: 50px;
+    color: azure;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
