@@ -16,6 +16,10 @@ function save(){
 }
     
 function reset(){
-   location.reload();
+    count = 0
+    countEl.textContent = 0
+    
+    location.reload();
 return false;
 }
+
