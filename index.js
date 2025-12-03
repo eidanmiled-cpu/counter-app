@@ -6,13 +6,12 @@ function increment() {
     count +=1
     countEl.innerText = count
 }
-document.getElementById("save-btn")
+
 function save(){
-    let countStr = count+" - "
-   countEl.textContent = 0
-    count = 0
+      let countStr = count + " - "
     saveEl.textContent += countStr
-    console.log(count)
+    count = 0
+    countEl.textContent = 0
 }
     
 function reset(){
@@ -20,5 +19,6 @@ function reset(){
     countEl.textContent = 0
     saveEl.textContent = ""
 }
+
 
 
