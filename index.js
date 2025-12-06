@@ -12,13 +12,12 @@ function save(){
     saveEl.textContent += countStr
     count = 0
     countEl.textContent = 0
+
 }
     
 function reset(){
     count = 0
     countEl.textContent = 0
     saveEl.textContent = ""
+saveEl.textContent +="Previous entries:"
 }
-
-
-
