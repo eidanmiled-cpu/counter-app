@@ -65,3 +65,23 @@ button{
     height:37;
     box-sizing: border-box;
 }
+#count-el {
+    font-size: 50px;
+    color: azure;
+    margin: 20px 0;
+    transition: all 0.3s ease; /* Transition douce */
+}
+
+/* Animation quand le compteur change */
+@keyframes countPop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+
+
+.pop-animation {
+    animation: countPop 0.3s ease;
+
+}
